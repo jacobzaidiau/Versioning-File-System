@@ -1,0 +1,14 @@
+#!/bin/bash
+# Jacob Zaidi
+# listversions $1
+# Lists the versions of the file called $1.
+
+if [ "$1" != "" ]; then
+    for i in {1..6}; do
+        if [ -e ".versiondir/$1.$i" ]; then
+            echo "$1.$i"
+        fi
+    done    
+fi
+
+

@@ -1,0 +1,8 @@
+#!/bin/bash
+# Jacob Zaidi
+# mkcurrent $1 $2
+# Make $2 the current version of the file $1.
+
+if [ "$1" != "" ] && [ "$2" != "" ]; then
+    echo `cat "mount/$1.$2"` > "mount/$1"
+fi
