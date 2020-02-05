@@ -1,6 +1,6 @@
 ## About Versioning File System
 
-Versioning File System implements a user space file system which automatically keeps multiple versions of files, and implements tools to work with the file versions. The project is compatible with a Linux distribution and not Windows or MacOS.
+Versioning File System implements a user space file system which automatically keeps multiple versions of files, and implements tools to work with the file versions. The project is only compatible with a Linux distribution and not Windows or MacOS.
 
 ## Instructions for how to develop, use, and test the code.
 
